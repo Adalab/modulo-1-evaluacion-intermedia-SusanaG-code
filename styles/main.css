@@ -25,7 +25,7 @@
     align-items: center;
     list-style: none;
     padding: 0 450px;
-    
+    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     color: #4a4a4a;
     
@@ -45,6 +45,7 @@ a {
     align-items: center;
     margin-top:100px;
     color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
     
 }
 
