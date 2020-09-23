@@ -1,65 +1,132 @@
-* {
+/* 
+ {
     margin:0;
     
     
     background-color:#3CDBC0;
-    
+    font-family: 'Rubik', sans-serif;
 
 }
 
 .header-box {
     width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:fixed;
+    
+    top:0;
     
 }
 
-.logo-box img{
-    position: relative;
-    left: 480px;
-    width:155px;
+
+.logo-box img{ */
+    /* position: relative; */
+    /* left: 480px; */
+    /* width: 155px;
+    
 }
+
+.logo-box{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+}
+
+.logo-box {
+    border: solid 1px purple;
+    width:100%;
+    text-align: center;
+}
+
+
 
 .menu-list {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     list-style: none;
-    padding: 0 450px;
+    padding: 10px;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     color: #4a4a4a;
-    
-    
+    text-transform: uppercase;    
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    padding: 10px 13px;
 }
 
 
 .text {
     display: flex;
+    width:500px;
+    height:100vh;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin-top:100px;
+    text-transform: uppercase;
     color: #FFFFFF;
+    font-size: 30px;
     font-family: 'Rubik', sans-serif;
+    text-transform: capitalize;
     
+    
+} */
+
+
+
+/* .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    border: solid red 1px;
+    height: 100%;
+
 }
 
-.text-box {
+.main-box {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.main {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    height:100vh;
+    border: SOLID BLUE 2px;
    
 }
 
 
+
+ @media all and (min-width:768px){
+   .header-box {
+       flex-direction: row;
+       justify-content: space-around;
+       
+
+    }
+
+    .menu-list {
+        flex-direction: row;
+        align-items: flex-end;
+        font-size: 40px;
+    }
+
+
+    .text {
+        
+        font-size: 40px;
+        
+        
+    }
+    a {
+        padding: 5px 30px 20px 10px;
+    }
+} 
+
+
+ 
